@@ -1,0 +1,71 @@
+{
+  "projects": [
+    {
+      "name": "Meeting Manager",
+      "liveLink": "https://chrome.google.com/webstore/detail/meeting-manager/aacgaodijbejpjkdogojbcjjakcklmjl?hl=en&authuser=0",
+      "githubLink": "https://github.com/codescientist703/Meeting-Manager",
+      "tags": [
+        "extension",
+        "VueJS",
+        "google",
+        "meet"
+      ],
+      "description": "Meeting Manager allows you to manage all your google meet conferences from a simple list view where you can perform any action like muting/unmuting the mic, camera, and sound from ANY tab or window. ",
+      "projectImage": "assets/meet-manager.png"
+    },
+    {
+      "name": "Frappe Chat",
+      "tags": [
+        "frappe",
+        "python"
+      ],
+      "githubLink": "https://github.com/frappe/chat",
+      "liveLink": "https://frappecloud.com/marketplace/apps/chat",
+      "projectImage": "assets/frappe_chat.jpg",
+      "description": "It is a modern chat widget for the Frappe framework, featuring guest/admin views, real-time updates, guest user workflow, and more. The chat widget has over 1800 users and received 68 stars on its GitHub repository."
+    },
+    {
+      "name": "Job Dundho",
+      "description": "Job Dundho is the ultimate job portal for any job aspirant to find any type of job. It has a nice UI/UX so navigation through the site is a breeze. It also comes with a powerful filtering system so one can find any job easily.",
+      "tags": [
+        "react",
+        "django"
+      ],
+      "githubLink": "https://github.com/codescientist703/job-site",
+      "projectImage": "assets/job_dundho-1-.jpg"
+    },
+    {
+      "name": "Github Kanban Chart",
+      "liveLink": "https://codescientist703.github.io/kanban-chart/",
+      "githubLink": "https://github.com/codescientist703/github-kanban",
+      "tags": [
+        "github",
+        "open-source",
+        "javascript"
+      ],
+      "description": "Github Kanban Chat is a tool to share one's open-source contributions to anyone in the form of a kanban chart which looks very visually appealing to the eyes. It shows off all the open and closed pull requests/issues in the form of a kanban chart.",
+      "projectImage": "assets/github_kanban.jpg"
+    },
+    {
+      "name": "Anime India",
+      "description": "Anime India is a discussion forum web application to discuss things related to anime. It has features like an authentication system, post creation, discussion thread, custom profile, and role-based control.",
+      "tags": [
+        "django",
+        "bootstrap"
+      ],
+      "githubLink": "https://github.com/codescientist703/anime-india",
+      "projectImage": "assets/anime_india-1-.jpg"
+    },
+    {
+      "name": "Resume Ranker",
+      "description": "It is a web application that allows the recruiter to easily filter out resumes based on resume score. The backend was built using the Flask framework. It has features like an authentication system, an NLP model to extract relevant content, and a file parsing system.",
+      "tags": [
+        "Python",
+        "Flask",
+        "NLP"
+      ],
+      "githubLink": "https://github.com/codescientist703/Resume_ranker",
+      "projectImage": "assets/resume_ranker-1-.jpg"
+    }
+  ]
+}

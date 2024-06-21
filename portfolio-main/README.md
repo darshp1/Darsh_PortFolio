@@ -1,4 +1,5 @@
-## [nihalmittal.me](https://nihalmittal.me)
+## [Darsh Patel
+](https://nihalmittal.me)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a15da88f-7596-420d-b617-a2b7b8b95412/deploy-status)]()
 [![MADE BY Next.js](https://img.shields.io/badge/MADE%20BY%20Next.js-000000.svg?style=flat&logo=Next.js&labelColor=000)](https://nextjs.org/)

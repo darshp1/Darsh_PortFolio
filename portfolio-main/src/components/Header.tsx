@@ -13,11 +13,16 @@ const DarkModeToggleButton = () => {
 	return <BsFillMoonStarsFill className="w-6 h-6 text-primary" />;
 };
 
+const drawerStyle = {
+	backgroundColor: '#312f30',
+};
+
 export const Sidebar = () => {
 	return (
 		<div className="drawer-side">
 			<label htmlFor="my-drawer-3" className="drawer-overlay"></label>
-			<div className="pt-8 w-60 bg-base-100 text-base-content menu ">
+			*<div className="pt-8 w-60 bg-base-100 text-base-content menu ">*
+			
 				<ul>
 					{navLinks.map((data, index) => (
 						<li key={index}>
@@ -42,10 +47,11 @@ export const Sidebar = () => {
 export const Navbar = () => {
 	return (
 		<div className="sticky top-0 z-30 flex h-16 w-full justify-center text-base-content">
-			<div className="w-full navbar bg-base-200 shadow lg:px-12 px-4">
+			<div className="w-full navbar shadow lg:px-12 px-4 ustom-drawer-bg" style={drawerStyle}>
+			
 				<div className="flex-1 text-primary font-bold text-2xl">
 					<Link href="/">
-						<Image src={"/" + personalInfo.logoImage} height={90} width={85} alt="Logo Image" />
+						<Image src={"/" + personalInfo.logoImage} height={100} width={60} alt="Logo Image" />
 					</Link>
 				</div>
 				<div className="flex-none hidden lg:block font-bold">

@@ -13,7 +13,7 @@ export default function About({
 	return (
 		<DefaultLayout>
 			<Container maxWidth="max-w-6xl">
-				<SEO title="Nihal Mittal's Blog" />
+				<SEO title="Darsh Patel's Blog" />
 				<PageTitle title="Blog" />
 				<div className="space-y-5 max-w mx-auto mb-12">
 					{blogPostsListData.map((blogPost, key) => (

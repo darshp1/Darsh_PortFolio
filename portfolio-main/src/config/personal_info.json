@@ -1,19 +1,23 @@
 {
   "shortDescription": "I am a software engineer specialized in building scalable backend systems and web. I also dabble in a little bit of frontend. Currently, I am working at Amazon as a Software Developer Engineer.",
   "skills": [
+    "Python",
     "Java",
     "AWS",
-    "MicroServices",
+    "Flask",
     "API",
     "Django",
-    "React"
+    "MERN Stack",
+    "SQL",
+    "Natutral language Processing",
+    "Machine Learning"
   ],
-  "aboutMe": "Hi, I am Darsh Patel currently working at University of Southern California as a Web Developer.",
+  "aboutMe": "Hi, I am Darsh Patel currently studying in University of Southern California with 3.8/4.0 GPA. I am currently working at University of Southern California as a Web Developer. I like to play Chess as hobby.",
   "occupations": [
     "Software Engineer",
     "Web Developer",
-    "Machine learning Engineer",
-    "Natural language Processing Engineer"
+    "iOS Developer",
+    "Machine Learning Engineer"
   ],
   "name": "Darsh Patel",
   "twitterId": "darsh06788449",

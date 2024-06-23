@@ -1,9 +1,9 @@
 {
   "projects": [
     {
-      "name": "Darsh Patel",
-      "liveLink": "https://chrome.google.com/webstore/detail/meeting-manager/aacgaodijbejpjkdogojbcjjakcklmjl?hl=en&authuser=0",
-      "githubLink": "https://github.com/codescientist703/Meeting-Manager",
+      "name": "StockSmart_IOS",
+      "demoLink": "https://drive.google.com/file/d/1LCZEiP7zoLxrlTuAns5kvhp0wlS1_1_o/view",
+      "githubLink": "https://github.com/darshp1/StockSmart_IOS",
       "tags": [
         "extension",
         "VueJS",

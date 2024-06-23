@@ -4,5 +4,6 @@ export type Project = {
 	tags: string[];
 	githubLink: string;
 	liveLink?: string;
+	demoLink?: string;
 	projectImage: string;
 };

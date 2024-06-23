@@ -4,7 +4,7 @@ import { Project } from "types/project";
 import Link from "next/link";
 
 export const ProjectCard = ({ project }: { project: Project }) => {
-	const { name, description, tags, githubLink, projectImage, liveLink } = project;
+	const { name, description, tags, githubLink, projectImage, liveLink, demoLink } = project;
 
 	return (
 		<div className="card bg-base-300 shadow-xl max-w-md p-5 gap-8 border border-gray-700">
@@ -33,6 +33,12 @@ export const ProjectCard = ({ project }: { project: Project }) => {
 					{liveLink && (
 						<Link href={liveLink} className="btn btn-secondary" rel="noreferrer" target="_blank">
 							Live
+						</Link>
+					)}
+
+					{demoLink && (
+						<Link href={demoLink} className="btn btn-secondary" rel="noreferrer" target="_blank">
+							Project Video 
 						</Link>
 					)}
 				</div>

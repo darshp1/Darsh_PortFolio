@@ -4,6 +4,7 @@ import { RiCloseLine } from "react-icons/ri";
 import { ImHome } from "react-icons/im";
 import { BiNotepad } from "react-icons/bi";
 import { BsFillLightbulbFill } from "react-icons/bs";
+import { MdSchool } from "react-icons/md";
 import Link from "next/link";
 import { PageSocial } from "./PageSocial";
 import Image from "next/image";
@@ -84,6 +85,11 @@ const navLinks: NavLinksArrayType = [
 		name: "Home",
 		link: "/",
 		icon: <ImHome />,
+	},
+	{
+		name: "Education",
+		link: "/school",
+		icon: <MdSchool />,
 	},
 	{
 		name: "Blog",

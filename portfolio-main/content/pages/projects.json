@@ -30,18 +30,18 @@
       "description": "It is a modern chat widget for the Frappe framework, featuring guest/admin views, real-time updates, guest user workflow, and more. The chat widget has over 1800 users and received 68 stars on its GitHub repository."
     },
     {
-      "name": "Job Aggregator",
-      "reportLink": "https://drive.google.com/file/d/1W-j1gGZd29IXhgGLTnRCJo77SCJlKlqj/view?usp=drive_link",
+      "name": "ParaBERT: Advanced Paraphrase Detection",
+      "reportLink": "https://drive.google.com/file/d/1TdVyZOnBUF1UeDUaGDpn1d0oOWjFhrKP/view?usp=sharing",
       "description": "Job Aggregator is the ultimate job portal for any job aspirant to find any type of job. It has a nice UI/UX so navigation through the site is a breeze. It also comes with a powerful filtering system so one can find any job easily.",
       "tags": [
-        "react",
-        "django",
-        "Rest Framework",
-        "postgreSWL",
-        "Scrapy"
+        "NLP",
+        "BERT",
+        "Transformers",
+        "Sklearn",
+        "Tensorflow"
       ],
       "githubLink": "https://github.com/codescientist703/job-site",
-      "projectImage": "assets/job_dundho-1-.jpg"
+      "projectImage": "assets/Parabert.png"
     },
     {
       "name": "COVID-19 Tracker",
@@ -56,6 +56,20 @@
       ],
       "description": "Github Kanban Chat is a tool to share one's open-source contributions to anyone in the form of a kanban chart which looks very visually appealing to the eyes. It shows off all the open and closed pull requests/issues in the form of a kanban chart.",
       "projectImage": "assets/d1-covid.png"
+    },
+    {
+      "name": "Job Aggregator",
+      "reportLink": "https://drive.google.com/file/d/1W-j1gGZd29IXhgGLTnRCJo77SCJlKlqj/view?usp=drive_link",
+      "description": "Job Aggregator is the ultimate job portal for any job aspirant to find any type of job. It has a nice UI/UX so navigation through the site is a breeze. It also comes with a powerful filtering system so one can find any job easily.",
+      "tags": [
+        "react",
+        "django",
+        "Rest Framework",
+        "postgreSWL",
+        "Scrapy"
+      ],
+      "githubLink": "https://github.com/codescientist703/job-site",
+      "projectImage": "assets/job_dundho-1-.jpg"
     },
     {
       "name": "Anime India",
@@ -81,17 +95,6 @@
       ],
       "description": "Github Kanban Chat is a tool to share one's open-source contributions to anyone in the form of a kanban chart which looks very visually appealing to the eyes. It shows off all the open and closed pull requests/issues in the form of a kanban chart.",
       "projectImage": "assets/Library.png"
-    },
-    {
-      "name": "Resume Ranker",
-      "description": "It is a web application that allows the recruiter to easily filter out resumes based on resume score. The backend was built using the Flask framework. It has features like an authentication system, an NLP model to extract relevant content, and a file parsing system.",
-      "tags": [
-        "Python",
-        "Flask",
-        "NLP"
-      ],
-      "githubLink": "https://github.com/codescientist703/Resume_ranker",
-      "projectImage": "assets/resume_ranker-1-.jpg"
     }
   ]
 }

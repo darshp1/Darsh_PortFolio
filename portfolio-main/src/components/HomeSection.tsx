@@ -3,6 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import Image from "next/image";
 import Link from "next/link";
 import personalInfo from "../config/personal_info.json";
+import React from "react"
 
 export const HomeSection = () => {
 	const animationSequence = personalInfo.occupations.flatMap((data) => [data, 1000]);
@@ -21,7 +22,9 @@ export const HomeSection = () => {
 						/>
 						<div className="w-full">
 							<div className="space-y-5">
-								<div className="text-2xl text-primary">Hi, I&lsquo;m</div>
+							<span className="text-4xl bg-gradient-to-r from-yellow-400 to-blue-400 text-transparent bg-clip-text">
+								Hi, I&lsquo;m
+							</span>
 								<div className="text-5xl md:text-6xl font-bold">{personalInfo.name}</div>
 								<TypeAnimation
 									sequence={animationSequence}
@@ -32,9 +35,14 @@ export const HomeSection = () => {
 								/>
 							</div>
 							<p className="py-6 prose">{personalInfo.shortDescription}</p>
-							<Link className="btn btn-outline btn-info btn-md" href="/blog">
-								Check out my blog
+							<div>
+							<Link className="btn btn-outline btn-info btn-md mb-2 lg:mr-2 lg:mb-0" href="/blog">
+								Hire me
 							</Link>
+							<Link className="btn btn-outline btn-warning btn-md mt-2 lg:ml-2 lg:mt-0 " href="/blog">
+								Download my CV
+							</Link>
+							</div>
 						</div>
 					</div>
 				</div>

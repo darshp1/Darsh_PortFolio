@@ -87,8 +87,8 @@ const navLinks: NavLinksArrayType = [
 		icon: <ImHome />,
 	},
 	{
-		name: "Education",
-		link: "/school",
+		name: "About",
+		link: "/about",
 		icon: <MdSchool />,
 	},
 	{

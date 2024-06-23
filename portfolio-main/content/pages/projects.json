@@ -5,10 +5,11 @@
       "demoLink": "https://drive.google.com/file/d/1LCZEiP7zoLxrlTuAns5kvhp0wlS1_1_o/view",
       "githubLink": "https://github.com/darshp1/StockSmart_IOS",
       "tags": [
-        "extension",
-        "VueJS",
-        "google",
-        "meet"
+        "Swift",
+        "SwiftUI",
+        "Node.js",
+        "Express",
+        "finnhub"
       ],
       "description": "Meeting Manager allows you to manage all your google meet conferences from a simple list view where you can perform any action like muting/unmuting the mic, camera, and sound from ANY tab or window. ",
       "projectImage": "assets/meet-manager.png"

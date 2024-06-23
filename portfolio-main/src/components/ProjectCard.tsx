@@ -4,17 +4,24 @@ import { Project } from "types/project";
 import Link from "next/link";
 
 export const ProjectCard = ({ project }: { project: Project }) => {
-	const { name, description, tags, githubLink, projectImage, liveLink, demoLink } = project;
+	const { name, description, tags, githubLink, projectImage, liveLink, demoLink,reportLink } = project;
+
+	const fitImage = {
+		width: "500px",
+		height: "200px",
+		objectFit: "cover",
+		borderRadius: "0.75rem"
+	};
 
 	return (
 		<div className="card bg-base-300 shadow-xl max-w-md p-5 gap-8 border border-gray-700">
-			<figure>
+			<figure className="w-full h-52 relative ">
 				<Image
-					src={"/" + projectImage}
-					alt="Project bru"
+					src={projectImage}
+					alt="Project image"
 					width={500}
 					height={200}
-					className="rounded-xl"
+					className="w-full h-full rounded-xl"
 				/>
 			</figure>
 			<div className="card-body p-0">
@@ -36,11 +43,19 @@ export const ProjectCard = ({ project }: { project: Project }) => {
 						</Link>
 					)}
 
+					{reportLink && (
+						<Link href={reportLink} className="btn btn-secondary" rel="noreferrer" target="_blank">
+							Report
+						</Link>
+					)}
+
 					{demoLink && (
 						<Link href={demoLink} className="btn btn-secondary" rel="noreferrer" target="_blank">
 							Project Video 
 						</Link>
 					)}
+
+				
 				</div>
 			</div>
 		</div>

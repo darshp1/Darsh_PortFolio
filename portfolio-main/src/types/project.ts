@@ -5,5 +5,6 @@ export type Project = {
 	githubLink: string;
 	liveLink?: string;
 	demoLink?: string;
+	reportLink?: string;
 	projectImage: string;
 };

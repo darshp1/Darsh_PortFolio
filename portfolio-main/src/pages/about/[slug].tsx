@@ -36,7 +36,8 @@ export default function BlogPostPage({
 				<div>
 					<h1 className="text-4xl md:text-5xl font-extrabold mt-14 mb-6">{title}</h1>
 					<div className="text-xl font-extralight text-gray-400 mb-5">
-						Posted on {convertDateToReadableFormat(date)}
+						{/*Posted on {convertDateToReadableFormat(date)}*/}
+						Posted on January 13, 2023
 					</div>
 					<div className="mb-8">
 						<TagList tagList={tags} />

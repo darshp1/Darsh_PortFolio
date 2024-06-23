@@ -8,11 +8,12 @@
     "API",
     "Django",
     "MERN Stack",
+    "Next.js",
     "SQL",
     "Natutral language Processing",
     "Machine Learning"
   ],
-  "aboutMe": "Hi, I am Darsh Patel currently studying in University of Southern California with 3.8/4.0 GPA. I am currently working at University of Southern California as a Web Developer. I like to play Chess.",
+  "aboutMe": "Hi, I am Darsh Patel currently studying in University of Southern California with 3.8/4.0 GPA. I am currently working at University of Southern California as a Web Developer. I like to play Chess. This Portfolio is made using Next.js and bootstrap.",
   "occupations": [
     "Software Engineer",
     "Web Developer",

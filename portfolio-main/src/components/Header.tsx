@@ -22,7 +22,7 @@ export const Sidebar = () => {
 	return (
 		<div className="drawer-side">
 			<label htmlFor="my-drawer-3" className="drawer-overlay"></label>
-			*<div className="pt-8 w-60 bg-base-100 text-base-content menu ">*
+			<div className="pt-8 w-60 bg-base-100 text-base-content menu ">
 			
 				<ul>
 					{navLinks.map((data, index) => (
@@ -91,11 +91,7 @@ const navLinks: NavLinksArrayType = [
 		link: "/about",
 		icon: <MdSchool />,
 	},
-	{
-		name: "Blog",
-		link: "/blog",
-		icon: <BiNotepad />,
-	},
+	
 	{
 		name: "Projects",
 		link: "/projects",

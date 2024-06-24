@@ -1,6 +1,10 @@
 import { Container } from "components/Container";
 import Image from "next/image";
 import personalInfo from "../config/personal_info.json";
+import { motion } from "framer-motion";
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+
 
 export const AboutSection = () => {
 	return (
@@ -18,19 +22,85 @@ export const AboutSection = () => {
 								<h2 className="text-4xl font-bold mb-6 whitespace-nowrap">About me</h2>
 								<div className="divider w-full" />
 							</div>
+			
+							
 							<div className="prose max-w-full">
 								{personalInfo.aboutMe.split("\n").map((data, index) => (
 									<p key={index}>{data}</p>
 								))}
-								Here are some of the technologies I’ve worked with:
-								<ul className="grid grid-cols-2 marker:text-base marker:content-['▹'] marker:text-accent marker:pr-8 pl-2 text-sm">
-									{personalInfo.skills.map((skill, index) => (
-										<li key={index} className="pl-4">
-											{skill}
-										</li>
-									))}
-								</ul>
+							<Tabs>
+								<TabList>
+									<Tab>Skills</Tab>
+									<Tab>Education</Tab>
+									<Tab>Certification</Tab>
+								</TabList>
+
+								<motion.div
+									initial={{ opacity: 0 }}
+									animate={{ opacity: 1 }}
+									exit={{ opacity: 0 }}
+								>
+									<TabPanel>
+										Here are some of the technologies I’ve worked with:
+											<ul className="grid grid-cols-2 marker:text-base marker:content-['▹'] marker:text-accent marker:pr-8 pl-2 text-sm">
+												{personalInfo.skills.map((skill, index) => (
+													<li key={index} className="pl-4">
+														{skill}
+													</li>
+												))}
+											</ul>
+									</TabPanel>
+								</motion.div>
+								<motion.div
+									initial={{ opacity: 0 }}
+									animate={{ opacity: 1 }}
+									exit={{ opacity: 0 }}
+								>
+									<TabPanel>
+										<ul className="grid grid-cols-1 marker:text-base marker:content-['▹'] marker:text-accent marker:pr-8 pl-2 text-sm">
+											{personalInfo.university.map((school, index) => (
+												<li key={index} className="pl-4 cols-2">
+													{school}
+												</li>
+											))}
+										</ul>
+									</TabPanel>
+								</motion.div>
+								<motion.div
+									initial={{ opacity: 0 }}
+									animate={{ opacity: 1 }}
+									exit={{ opacity: 0 }}
+								>
+									<TabPanel>
+										<ul className="grid grid-cols-2 marker:text-base marker:content-['▹'] marker:text-accent marker:pr-8 pl-2 text-sm">
+											<li  className="pl-4 cols-2">
+												<a href=""> a </a>
+											</li>
+											<li  className="pl-4 cols-2">
+												<a href=""> a </a>
+											</li>
+											<li  className="pl-4 cols-2">
+												<a href=""> a </a>
+											</li>
+											<li  className="pl-4 cols-2">
+												<a href=""> a </a>
+											</li>
+											<li  className="pl-4 cols-2">
+												<a href=""> a </a>
+											</li>
+											<li  className="pl-4 cols-2">
+												<a href=""> a </a>
+											</li>
+											<li  className="pl-4 cols-2">
+												<a href=""> a </a>
+											</li>
+										</ul>
+									</TabPanel>
+								</motion.div>
+							</Tabs>
+								
 							</div>
+							
 						</div>
 					</div>
 				</div>

@@ -31,26 +31,26 @@ export const ProjectCard = ({ project }: { project: Project }) => {
 				<div className="grid grid-cols-2 items-center text-center gap-3">
 					<Link
 						href={githubLink}
-						className="btn btn-outline btn-primary"
+						className="btn btn-outline btn-warning"
 						rel="noreferrer"
 						target="_blank"
 					>
 						Source Code
 					</Link>
 					{liveLink && (
-						<Link href={liveLink} className="btn btn-secondary" rel="noreferrer" target="_blank">
+						<Link href={liveLink} className="btn btn-info" rel="noreferrer" target="_blank">
 							Live
 						</Link>
 					)}
 
 					{reportLink && (
-						<Link href={reportLink} className="btn btn-secondary" rel="noreferrer" target="_blank">
+						<Link href={reportLink} className="btn btn-info" rel="noreferrer" target="_blank">
 							Report
 						</Link>
 					)}
 
 					{demoLink && (
-						<Link href={demoLink} className="btn btn-secondary" rel="noreferrer" target="_blank">
+						<Link href={demoLink} className="btn btn-info" rel="noreferrer" target="_blank">
 							Project Video 
 						</Link>
 					)}

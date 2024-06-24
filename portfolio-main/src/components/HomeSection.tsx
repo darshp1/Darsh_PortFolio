@@ -11,36 +11,55 @@ export const HomeSection = () => {
 	return (
 		<section className="relative pb-36">
 			<Container maxWidth="max-w-6xl">
-				<div className="hero min-h-[95vh]">
-					<div className="hero-content flex-col lg:flex-row-reverse px-0">
-						<Image
-							src="/assets/home_page_coder.svg"
-							className="hidden lg:block"
-							alt="Programmer"
-							width={480}
-							height={100}
-						/>
+				<div className="hero min-h-[98vh]">
+				<div className="hero-content flex flex-col lg:flex-row-reverse  px-0">
+					
+					<Image
+						src="/assets/home_page_coder.svg"
+						className="hidden lg:block" // Hidden on small screens, visible on large screens
+						alt="Programmer"
+						width={480}
+						height={100}
+					/>
 						<div className="w-full">
 							<div className="space-y-5">
 							<span className="text-4xl bg-gradient-to-r from-yellow-400 to-blue-400 text-transparent bg-clip-text">
 								Hi, I&lsquo;m
 							</span>
 								<div className="text-5xl md:text-6xl font-bold">{personalInfo.name}</div>
+								
 								<TypeAnimation
 									sequence={animationSequence}
 									speed={45}
-									className="text-lg md:text-2xl"
+									className="text-lg md:text-3xl bg-gradient-to-b from-yellow-400 to-blue-400 text-transparent bg-clip-text"
 									wrapper="h2"
 									repeat={Infinity}
 								/>
 							</div>
+							<Image
+								src="/assets/home_page_coder.svg"
+								className="lg:hidden block mx-auto mb-10 mt-10 lg:mb-0 lg:mt-0" // Visible on small screens, centered
+								alt="Programmer"
+								width={300}
+								height={50}
+							/>
 							<p className="py-6 prose">{personalInfo.shortDescription}</p>
 							<div>
-							<Link className="btn btn-outline btn-info btn-md mb-2 lg:mr-2 lg:mb-0" href="/blog">
+							<Link
+								href={"mailto:" + personalInfo.emailId}
+								target="_blank"
+								rel="noreferrer"
+								className="btn btn-outline btn-info btn-md mb-2 mr-2 lg:mb-0" >
+						
 								Hire me
 							</Link>
-							<Link className="btn btn-outline btn-warning btn-md mt-2 lg:ml-2 lg:mt-0 " href="/blog">
-								Download my CV
+							<Link 
+							href="https://drive.google.com/file/d/1azycqdlpkP81_7j8ApKP_-lg9DNDu3dI/view?usp=sharing"
+							download="Darsh_Patel_Resume.pdf"
+							target="_blank"
+							rel="noreferrer"
+							className="btn btn-outline btn-warning btn-md mt-2 ml-2 lg:mt-0 " >
+								my resume
 							</Link>
 							</div>
 						</div>

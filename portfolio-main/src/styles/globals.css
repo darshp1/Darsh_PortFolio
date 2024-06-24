@@ -3,7 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 body {
-    background-color: black;
+    /* background-color: rgb(226, 236, 156); */
+    background-color: black
 }
 
 .bgc{

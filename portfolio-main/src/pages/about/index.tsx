@@ -14,15 +14,43 @@ export default function About({
 		<DefaultLayout>
 			<Container maxWidth="max-w-6xl">
 				<SEO title="Darsh Patel's Blog" />
-				<PageTitle title="About" />
-				<div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w mx-auto lg:mb-0 mb-7 ">
+				<PageTitle title="About" />	
+				<div className="mb-5 text-center"> Education: </div>
+				<div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w mx-auto lg:mb-3 mb-7 ">
 					<div>
 						{blogPostsListData.map((blogPost, key) => (
 							<BlogCard key={key} blogPost={blogPost} />
 						))}
 					</div>
 					<div>
-					{blogPostsListData.map((blogPost, key) => (
+						{blogPostsListData.map((blogPost, key) => (
+							<BlogCard key={key} blogPost={blogPost} />
+						))}
+					</div>
+				</div>
+
+				<div className="mt-5 mb-5 text-center"> Work Experience: </div>
+				<div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w mx-auto lg:mb-3 mb-7 ">
+					<div>
+						{blogPostsListData.map((blogPost, key) => (
+							<BlogCard key={key} blogPost={blogPost} />
+						))}
+					</div>
+				</div>
+
+				<div className="mt-5 mb-5 text-center"> Skills: </div>
+				<div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w mx-auto lg:mb-3 mb-7 ">
+					<div>
+						{blogPostsListData.map((blogPost, key) => (
+							<BlogCard key={key} blogPost={blogPost} />
+						))}
+					</div>
+				</div>
+
+				<div className="mt-5 mb-5 text-center"> Certification: </div>
+				<div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w mx-auto lg:mb-3 mb-7 ">
+					<div>
+						{blogPostsListData.map((blogPost, key) => (
 							<BlogCard key={key} blogPost={blogPost} />
 						))}
 					</div>

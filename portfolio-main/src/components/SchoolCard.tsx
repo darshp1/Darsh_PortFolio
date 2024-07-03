@@ -7,13 +7,30 @@ import Image from "next/image";
 export const BlogCard = ({ blogPost }: { blogPost: BlogPost }) => {
 	const { title, slug, summary, date, tags, blogImage } = blogPost;
 	return (
-		<div className="card md:max-w-full max-w-md md:card-side bg-base-200 shadow-xl p-4 border border-gray-700 gap-8 mx-auto">
-			<div className="flex flex-col w-full">
-				hey
+		<div className="card md:max-w-full max-w-md bg-base-200 shadow-xl p-4 border border-gray-700 gap-8 mx-auto">
+			<div className="flex flex-col w-full text-center">
+				<Image
+					src={"/" + "assets/USC_logo.jpeg"}
+					alt="USC"
+					width={550}
+					height={0}
+					className="rounded-l"
+				/>
 			</div>
-			<div className="w-full">
-				hey
+			<div className="grid grid-cols-2 gap-4">
+				<div className="flex flex-col w-full">
+					<div className="text-center">
+						c1
+					</div>
+					<div>
+						2nd
+					</div>
+				</div>
+				<div>
+					c2
+				</div>
 			</div>
+			
 		</div>
 	);
 };

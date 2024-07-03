@@ -72,27 +72,34 @@ export const AboutSection = () => {
 									exit={{ opacity: 0 }}
 								>
 									<TabPanel>
-										<ul className="grid grid-cols-2 marker:text-base marker:content-['▹'] marker:text-accent marker:pr-8 pl-2 text-sm">
-											<li  className="pl-4 cols-2">
-												<a href=""> a </a>
+										<ul className="grid lg:grid-cols-2 marker:text-base marker:content-['▹'] marker:text-accent marker:pr-8 pl-2 text-sm">
+											<li  className="pl-4 cols-2 mr-2">
+												<a href="https://www.coursera.org/account/accomplishments/certificate/QVE4VQ8HWXZB" target="_blank"> Fake News Detection with Machine Learning </a>
 											</li>
 											<li  className="pl-4 cols-2">
-												<a href=""> a </a>
+												<a href="https://www.udemy.com/certificate/UC-8e82b66e-1654-4be3-83ee-f9852a4cc14a/" target="_blank"> MERN Stack on Azure using CI/CD Pipeline </a>
+											</li>
+											<li  className="pl-4 cols-2 mr-2">
+												<a href="https://www.udemy.com/certificate/UC-b2cd619b-9310-4951-b479-b122eb91f21e/" target="_blank"> NodeJS with express, socket io and MongoDB </a>
 											</li>
 											<li  className="pl-4 cols-2">
-												<a href=""> a </a>
+												<a href="https://www.coursera.org/account/accomplishments/certificate/RYXV7R4SUDKA" target="_blank">  Building Web Applications in PHP </a>
+											</li>
+											<li  className="pl-4 cols-2 mr-2">
+												<a href="https://www.coursera.org/account/accomplishments/certificate/NYCFE4S6K7SG" target="_blank">  Blockchain Basics </a>
+											</li>
+											
+											<li  className="pl-4 cols-2">
+												<a href="https://www.coursera.org/account/accomplishments/certificate/32JY3CGKRQSJ" target="_blank"> Introduction to Blockchain Technologies </a>
+											</li>
+											<li  className="pl-4 cols-2 mr-2" >
+												<a href="https://www.udemy.com/certificate/UC-5889f1cf-6547-4970-9edf-31c43d81d7f3/" target="_blank"> Machine learning & AI with 3 Projects </a>
+											</li> 
+											<li  className="pl-4 cols-2">
+												<a href="https://www.coursera.org/account/accomplishments/certificate/KMSXXBZ2D7DH" target="_blank">  Python Data Structures </a>
 											</li>
 											<li  className="pl-4 cols-2">
-												<a href=""> a </a>
-											</li>
-											<li  className="pl-4 cols-2">
-												<a href=""> a </a>
-											</li>
-											<li  className="pl-4 cols-2">
-												<a href=""> a </a>
-											</li>
-											<li  className="pl-4 cols-2">
-												<a href=""> a </a>
+												<a href="https://www.udemy.com/certificate/UC-5ac3520e-473c-4e17-b4b8-177b20ca8e6c/" target="_blank"> JQuery </a>
 											</li>
 										</ul>
 									</TabPanel>

@@ -14,11 +14,18 @@ export default function About({
 		<DefaultLayout>
 			<Container maxWidth="max-w-6xl">
 				<SEO title="Darsh Patel's Blog" />
-				<PageTitle title="Blog" />
-				<div className="space-y-5 max-w mx-auto mb-12">
+				<PageTitle title="About" />
+				<div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w mx-auto lg:mb-0 mb-7 ">
+					<div>
+						{blogPostsListData.map((blogPost, key) => (
+							<BlogCard key={key} blogPost={blogPost} />
+						))}
+					</div>
+					<div>
 					{blogPostsListData.map((blogPost, key) => (
-						<BlogCard key={key} blogPost={blogPost} />
-					))}
+							<BlogCard key={key} blogPost={blogPost} />
+						))}
+					</div>
 				</div>
 			</Container>
 		</DefaultLayout>

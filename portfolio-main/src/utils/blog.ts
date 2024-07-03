@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { BlogPost, PaginationBlogPost } from "types/blog";
+import { BlogPost, PaginationBlogPost } from "types/School";
 
 export const POSTS_PATH = path.join(process.cwd(), "content", "posts");
 

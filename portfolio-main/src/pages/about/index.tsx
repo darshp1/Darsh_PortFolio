@@ -1,8 +1,8 @@
 import { DefaultLayout } from "layouts/Default";
-import { BlogCard } from "components/BlogCard";
+import { BlogCard } from "components/SchoolCard";
 import { PageTitle } from "components/PageTitle";
 import { getBlogPostsListData } from "utils/blog";
-import { BlogPost } from "types/blog";
+import { BlogPost } from "types/School";
 import { InferGetStaticPropsType } from "next";
 import { SEO } from "components/SEO";
 import { Container } from "components/Container";

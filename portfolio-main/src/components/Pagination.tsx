@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { CgArrowLongLeft, CgArrowLongRight } from "react-icons/cg";
-import { PaginationBlogPost } from "types/blog";
+import { PaginationBlogPost } from "types/School";
 
 const PrevBlogNavItem = ({ blogPost }: { blogPost: PaginationBlogPost }) => {
 	const { slug, title } = blogPost;

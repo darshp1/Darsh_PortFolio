@@ -2,7 +2,7 @@ import { Pagination } from "components/Pagination";
 import { TagList } from "components/TagList";
 import { BlogPostComponents } from "components/MDXComponents";
 import { DefaultLayout } from "layouts/Default";
-import { PaginationBlogPost } from "types/blog";
+import { PaginationBlogPost } from "types/School";
 import { getBlogPostFromSlug, getBlogPostsSlugs, getPaginationData } from "utils/blog";
 import { InferGetStaticPropsType } from "next";
 import { convertDateToReadableFormat } from "utils/common";

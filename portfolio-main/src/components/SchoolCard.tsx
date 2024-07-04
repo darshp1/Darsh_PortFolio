@@ -5,30 +5,58 @@ import { convertDateToReadableFormat } from "utils/common";
 import Image from "next/image";
 
 export const BlogCard = ({ blogPost }: { blogPost: BlogPost }) => {
-	const { title, slug, summary, date, tags, blogImage } = blogPost;
+	const {  slug, images, GPAS, Names, Courses, Grad } = blogPost;
 	return (
-		<div className="card md:max-w-full max-w-md bg-base-200 shadow-xl p-4 border border-gray-700 gap-8 mx-auto">
-			<div className="flex flex-col w-full text-center">
-				<Image
-					src={"/" + "assets/USC_logo.jpeg"}
-					alt="USC"
-					width={550}
-					height={0}
-					className="rounded-l"
-				/>
+		<div className="card md:max-w-full max-w-md bg-base-200 shadow-xl p-4 border border-gray-700 gap-8 mx-auto lg:min-w-[520px] min-w-full">
+			<div className="flex justify-center items-center">
+				<Link href={`/blog/${slug}`}>
+					<Image 
+						src={"/" + images}
+						alt="College Logo"
+						width={150}
+						height={150}
+						priority={true} 
+						className="rounded-xl"
+					/>
+				
+				</Link>
+			
 			</div>
-			<div className="grid grid-cols-2 gap-4">
-				<div className="flex flex-col w-full">
-					<div className="text-center">
-						c1
-					</div>
-					<div>
-						2nd
-					</div>
-				</div>
-				<div>
-					c2
-				</div>
+			
+			<div className="flex flex-col items-center">
+	
+				{Names.map((name, index) => (
+					<span key={index} className="block lg:text-3xl">{name}</span>
+				))}
+
+				{Courses.map((name, index) => (
+					<span key={index} className="block lg:text-xl text-xs">{name}</span>
+				))}
+			</div>
+
+			<div className="grid lg:grid-cols-2 lg:gap-4 ">
+				<span className="flex flex-col w-full items-center">
+					<Link href={`/blog/${slug}`}>
+						<span>
+							<strong className="lg:text-base text-sm">GPA: </strong>
+							{GPAS.map((gpa, index) => (
+								<span key={index} className="lg:text-base text-sm">{gpa} </span>
+							))}
+						</span>
+					
+					</Link>
+				
+				</span>
+				<span className="flex flex-col w-full items-center">
+				<Link href={`/blog/${slug}`}>
+					<span>
+					<strong className="lg:text-base text-sm">Graduation: </strong>
+						{Grad.map((gpa, index) => (
+							<span key={index} className="lg:text-base text-sm">{gpa}</span>
+						))}
+					</span>
+				</Link>
+				</span>
 			</div>
 			
 		</div>

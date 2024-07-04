@@ -1,0 +1,24 @@
+{
+    "images": [
+      "assets/USC_logo.png",
+      "assets/Charusat_logo.jpeg"
+    ],
+    "GPAS":[
+        ["3.8/4.0"],
+        ["9.2/10.0"]
+    ],
+    "Names":[
+        ["University of Southern California"],
+        ["Charusat University"]
+    ],
+
+    "Courses":[
+        ["Master of Science in Computer Science"],
+        ["Bachelors of Technology in Information Technology"]
+    ],
+
+    "Grad":[
+        ["December 2024"],
+        ["May 2022"]
+    ]
+  }

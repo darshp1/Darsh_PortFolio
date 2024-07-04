@@ -52,7 +52,7 @@ export const Navbar = () => {
 			
 				<div className="flex-1 text-primary font-bold text-2xl">
 					<Link href="/">
-						<Image src={"/" + personalInfo.logoImage} height={100} width={60} alt="Logo Image" />
+						<Image src={"/" + personalInfo.logoImage} height={100} width={60} alt="Logo Image"  priority={true} />
 					</Link>
 				</div>
 				<div className="flex-none hidden lg:block font-bold">

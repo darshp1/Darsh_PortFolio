@@ -10,9 +10,13 @@ export type BlogPost = {
 	summary: string;
 	date: string;
 	seoDescription: string;
-	tags: string[];
+
 	previousBlogPostData: PaginationBlogPost | null;
 	nextBlogPostData: PaginationBlogPost | null;
-	blogImage: string;
+	images: string;
 	content?: string;
+	GPAS: string[];
+	Names: string[];
+	Courses: string[];
+	Grad: string[];
 };

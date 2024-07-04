@@ -1,0 +1,75 @@
+{
+    "shortDescription": ["I am a software engineer. I have made applications using MERN Stack, Swift & SwiftUI, Python Flask. I also dabbed into Machine Learning and Natural Language Processing." , 
+    "Job2",
+    "Job3",
+    "Job4"
+],
+
+    "skills": [
+        [
+            "Python",
+            "Java",
+            "AWS",
+            "Flask",
+            "API",
+            "Django",
+            "MERN Stack",
+            "Next.js",
+            "Machine Learning",
+            "SQL",
+            "Natutral language Processing"
+        ],
+        [
+            "Python",
+            "Java",
+            "AWS",
+            "Flask",
+            "API",
+            "Django",
+            "MERN Stack",
+            "Next.js",
+            "Machine Learning",
+            "SQL",
+            "Natutral language Processing"
+        ],
+        [
+            "Python",
+            "Java",
+            "AWS",
+            "Flask",
+            "API",
+            "Django",
+            "MERN Stack",
+            "Next.js",
+            "Machine Learning",
+            "SQL",
+            "Natutral language Processing"
+        ],
+        [
+            "Python",
+            "Java",
+            "AWS",
+            "Flask",
+            "API",
+            "Django",
+            "MERN Stack",
+            "Next.js",
+            "Machine Learning",
+            "SQL",
+            "Natutral language Processing"
+        ]
+    ],
+    "Time": [
+        "7 month",
+        "6 Months",
+        "5 Months",
+        "1 Month"
+    ],
+    "Year": [
+        "January 2024 - currently",
+        "June 2023 - November 2023",
+        "December 2021 - May 2022",
+        "May 2021 - June 2021"
+    ]
+  
+  }

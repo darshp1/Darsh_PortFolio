@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script> <!-- Load jQuery first -->
+    <script src="tilt.js"></script> <!-- Load Tilt.js library -->
+    <script>
+        $(document).ready(function() {
+            const tilt = $('[data-tilt]').tilt();
+            tilt.on('change', function(event, transforms) {
+                console.log('Tilt change:', transforms);
+            });
+            tilt.on('tilt.mouseLeave', function(event) {
+                console.log('Mouse leave:', event);
+            });
+            tilt.on('tilt.mouseEnter', function(event) {
+                console.log('Mouse enter:', event);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div data-tilt> hey </div> <!-- Tilt element -->
+</body>
+</html>

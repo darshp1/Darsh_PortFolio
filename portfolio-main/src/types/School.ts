@@ -20,3 +20,12 @@ export type BlogPost = {
 	Courses: string[];
 	Grad: string[];
 };
+
+export type jobs = {
+	shortDescription: string;
+	skills: string[];
+	time: string;
+	year: string;
+}
+
+export type Jobs = jobs[];
